@@ -1,0 +1,177 @@
+body{
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("house.jpg");
+    /* opacity: 50%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+li{
+    font-size: large;
+}
+
+.navbar{
+    list-style-type: none;
+    background:transparent;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: right;
+    flex-direction: row;
+    /* overflow:scroll; */
+}
+
+.navbar a{
+    color: white;
+    text-decoration:none;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    /* width: 650px; */
+}
+
+.navbar a:hover{
+    background-color: rgb(255, 255, 255);
+    margin: 3px 3px 3px 3px;
+    cursor: grab;
+    text-decoration: underline;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+    /* color: white; */
+    padding-top: 50px;
+    text-align: center;
+}
+
+#one {
+    /* text-align: center; */
+    color: rgb(52, 115, 234);
+    font-size: 35px;
+    font-weight: lighter;
+    font-style:normal;
+}
+
+#two {
+    color: rgb(241, 239, 239);
+    /* text-align: center; */
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+button{
+    /* align-items: center; */
+    margin-left: 46%;
+    height: 30px;
+}
+
+button:hover{
+    background-color: rgb(102, 175, 248);
+    cursor: grab;
+    border: none;
+}
+
+@media screen and (min-width: 600px) {
+    body{
+        margin: 0px;
+        width: 100vw;
+        height: 100vh;
+        background-image:linear-gradient(rgba(37, 37, 37, 0.75),rgba(0,0,0,0.75)),url("house.jpg");
+        /* opacity: 50%; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 0px;
+    }
+    
+    h1{
+        text-align: center;
+        color: rgb(180, 178, 178);
+    }
+    
+    li{
+        font-size: large;
+    }
+    
+    .navbar{
+        list-style-type: none;
+        background:transparent;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content:flex-end;
+        align-items: right;
+        flex-direction: row;
+        /* overflow:scroll; */
+    }
+    
+    .navbar a{
+        color: rgb(240, 239, 239);
+        text-decoration:none;
+        padding: 15px;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        /* width: 650px; */
+    }
+    
+    .navbar a:hover{
+        background-color: rgb(161, 160, 160);
+        margin: 3px 3px 3px 3px;
+        cursor: grab;
+        text-decoration: underline;
+        }
+    
+    main{
+        margin-left: 20px;
+        margin-right: 20px;
+        /* color: white; */
+        padding-top: 50px;
+        text-align: center;
+    }
+    
+    h2{
+        /* text-align: center; */
+        color: rgb(37, 206, 206);
+    }
+    
+    P{
+        color: rgb(184, 183, 183);
+        /* text-align: center; */
+        font-size: large;
+    }
+    
+    button{
+        /* align-items: center; */
+        margin-left: 46%;
+        height: 30px;
+    }
+    
+    button:hover{
+        background-color: rgb(99, 173, 247);
+        cursor: grab;
+        border: none;
+    }
+
+.copy{
+    color: rgb(225, 225, 252);
+    text-align: center;
+}
+
+
